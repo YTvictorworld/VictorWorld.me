@@ -5,78 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor World</title>
-
-    <!-- imports css -->
+    <title>VictorWorld.me</title>
+    <!-- Linkeo -->
     <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/icons.css">
-
-    <script src="https://kit.fontawesome.com/4bc9b134bf.js" crossorigin="anonymous"></script>
 </head>
-<!-- Total Body -->
 
-<!--Cabeza-->
-<body class="screen">
+<body>
+    <div class="header">
+        <nav>
+            <img src="imgs/logo.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT ME</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT ME</a></li>
+            </ul>
+            <img src="imgs/menu.png" class="menu-icon">
+        </nav>
 
-    <header class="header">
-        <div class="icon_menu">
-            <i class="fas fa-align-justify"></i>
+        <div class="text-box">
+            <h1>I'm <span class="auto-input"></h1>
+            <p>Hello, my name is Victor World. I am a junior programmer who likes to share some of his resources. <br>I have
+                been doing this for about 6 months.. Finally, I know some languages ​​like JavaScript, Java.</p>
+            <a href="">Contact Me</a>
+            <a href="" class="btn">Discord Bot</a>
         </div>
-    </header>
-
-
- <div class="menu__side">
-     <div class="name__page">
-        <i class="fab fa-black-tie"></i>
-        <h4>VictorWorld</h4>
-     </div>
- </div>
-
-
-<div class="options__menu"> 
-
-    <a href="#">
-        <div class="option">
-            <i class="fas fa-home" title="Home"></i>
-            <h4>Home</h4>
-        </div>
-
-        <a href="#">
-            <div class="option">
-                <i class="fas fa-home" title="Home"></i>
-                <h4>Home</h4>
-            </div>
-            
-            <a href="#">
-                <div class="option">
-                    <i class="fas fa-home" title="Home"></i>
-                    <h4>Home</h4>
-                </div>
-                <a href="#">
-                    <div class="option">
-                        <i class="fas fa-home" title="Home"></i>
-                        <h4>Home</h4>
-                    </div>
-      
-                    <a href="#">
-                        <div class="option">
-                            <i class="fas fa-home" title="Home"></i>
-                            <h4>Home</h4>
-                        </div>            
-    </a>
-
-</div>
-
-
-    <!--Cuerpo
     </div>
-    <div class="hola">
-        <span class="hello"> Hello</span>
-        <h1>i'm Victor World</h1>
-        <p>Basic Programmer, Owner of <a href="https://kotoribot.ml" target="_blank"
-                rel="noopener noreferrer">kotoribot.ml</a></p>
-    </div>-->
 
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Victor World", "Junior Programmer", "Good Guy"],
+            typeSpeed: 100,
+            backSpeeed: 50,
+            loop: true
+        })
+    </script>
 </body>
 
 </html>
